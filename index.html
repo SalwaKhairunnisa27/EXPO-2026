@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="KPM EXPO UNJ — Pameran Karya Mahasiswa Universitas Negeri Jakarta" />
+  <title>KPM EXPO UNJ 2025</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+  ============================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-badge">KPM</span>
+        <span class="logo-text">EXPO <span class="logo-accent">UNJ</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#timeline" class="nav-link">Timeline</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="#events" class="btn btn-primary nav-cta">Daftar Sekarang</a>
+
+      <!-- Hamburger for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==============================
+       HERO SECTION
+  ============================== -->
+  <section class="hero" id="home">
+    <!-- Decorative background blobs -->
+    <div class="hero-blob hero-blob--1"></div>
+    <div class="hero-blob hero-blob--2"></div>
+    <div class="hero-blob hero-blob--3"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Pendaftaran Dibuka · 2025
+        </div>
+
+        <h1 class="hero-title">
+          Wujudkan Karya<br />
+          <span class="gradient-text">Terbaikmu</span> di<br />
+          EXPO
+        </h1>
+
+        <p class="hero-subtitle">
+          Platform pameran dan kompetisi karya mahasiswa di Universitas Negeri Jakarta.
+          Tunjukkan inovasi, kreativitas, dan semangat juangmu kepada dunia.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#events" class="btn btn-primary btn-lg">
+            Lihat Event
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#about" class="btn btn-ghost btn-lg">Pelajari Lebih Lanjut</a>
+        </div>
+
+      </div>
+
+      <!-- Hero visual / past exhibition carousel -->
+      <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+        <div class="hero-gallery" aria-label="Pameran karya terdahulu">
+          <div class="hero-gallery-track">
+            <article class="hero-gallery-slide active" data-slide="0">
+              <img src="https://images.unsplash.com/photo-1559223607-b4d0555ae227?auto=format&fit=crop&w=900&q=80" alt="Pengunjung melihat karya seni di ruang pameran" />
+              <div class="hero-gallery-caption">
+                <span>Karya Seni Visual</span>
+                <h3>Pameran Karya 2024</h3>
+                <p>Ruang temu untuk ide, warna, dan cerita mahasiswa.</p>
+              </div>
+            </article>
+
+            <article class="hero-gallery-slide" data-slide="1">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80" alt="Mahasiswa berdiskusi dalam pameran inovasi" />
+              <div class="hero-gallery-caption">
+                <span>Inovasi Mahasiswa</span>
+                <h3>Kolaborasi & Presentasi</h3>
+                <p>Setiap booth membawa gagasan yang siap diuji bersama.</p>
+              </div>
+            </article>
+
+            <article class="hero-gallery-slide" data-slide="2">
+              <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80" alt="Suasana acara penghargaan dan panggung expo" />
+              <div class="hero-gallery-caption">
+                <span>Malam Apresiasi</span>
+                <h3>Selebrasi Karya Terbaik</h3>
+                <p>Momen ketika proses panjang dirayakan bersama.</p>
+              </div>
+            </article>
+          </div>
+
+          <button class="hero-gallery-btn hero-gallery-btn--prev" type="button" aria-label="Slide sebelumnya">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="hero-gallery-btn hero-gallery-btn--next" type="button" aria-label="Slide berikutnya">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <div class="hero-gallery-dots" aria-label="Pilih slide">
+            <button class="active" type="button" aria-label="Tampilkan slide 1"></button>
+            <button type="button" aria-label="Tampilkan slide 2"></button>
+            <button type="button" aria-label="Tampilkan slide 3"></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ==============================
+       ABOUT SECTION
+  ============================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Tentang Kami</span>
+        <h2 class="section-title">Apa Itu KPM EXPO UNJ?</h2>
+        <p class="section-desc">
+          KPM EXPO UNJ adalah ajang pameran dan kompetisi karya mahasiswa yang diselenggarakan oleh
+          Keluarga Pelajar Mahasiswa Universitas Negeri Jakarta setiap tahunnya.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            Sejak pertama kali diselenggarakan, KPM EXPO telah menjadi wadah bagi ribuan mahasiswa
+            untuk menampilkan karya terbaik mereka, mulai dari inovasi teknologi, karya seni,
+            penelitian ilmiah, hingga wirausaha kreatif.
+          </p>
+          <p>
+            Event ini tidak hanya menjadi ajang kompetisi, tetapi juga platform kolaborasi antara
+            mahasiswa, industri, dan masyarakat luas. Setiap tahun, kami menghadirkan pengalaman
+            yang semakin inovatif dan berkesan.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🎯</div>
+              <div>
+                <h4>Misi Kami</h4>
+                <p>Mendorong kreativitas dan inovasi mahasiswa UNJ</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🤝</div>
+              <div>
+                <h4>Kolaborasi</h4>
+                <p>Mempertemukan mahasiswa dengan industri dan mitra strategis</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🚀</div>
+              <div>
+                <h4>Inovasi</h4>
+                <p>Mendukung lahirnya ide-ide terobosan dari generasi muda</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-features" data-aos="fade-left">
+          <div class="feature-card">
+            <div class="feature-icon">🏅</div>
+            <h3>Kompetisi Bergengsi</h3>
+            <p>Raih penghargaan dan pengakuan atas karya terbaikmu di tingkat nasional.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎓</div>
+            <h3>Workshop & Seminar</h3>
+            <p>Perkaya wawasanmu lewat sesi edukasi bersama para pakar industri.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>Networking</h3>
+            <p>Bangun koneksi dengan mahasiswa, alumni, dan profesional dari berbagai bidang.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💡</div>
+            <h3>Pameran Karya</h3>
+            <p>Tampilkan proyek dan inovasi terbaikmu kepada khalayak yang lebih luas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       EVENTS / KATEGORI SECTION
+  ============================== -->
+  <section class="events" id="events">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Kategori Event</span>
+        <h2 class="section-title">Pilih Bidangmu, Tunjukkan Karyamu</h2>
+        <p class="section-desc">
+          Tersedia berbagai kategori untuk semua bidang ilmu dan minat mahasiswa UNJ.
+        </p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="event-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="tech">Teknologi</button>
+        <button class="filter-btn" data-filter="seni">Seni & Budaya</button>
+        <button class="filter-btn" data-filter="riset">Riset & Sains</button>
+        <button class="filter-btn" data-filter="bisnis">Bisnis & Wirausaha</button>
+      </div>
+
+      <div class="events-grid" id="eventsGrid">
+
+        <!-- Card 1 -->
+        <div class="event-card" data-category="tech" data-aos="fade-up">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #00b4ff, #1f7dff)">
+            <span class="event-card-emoji">💻</span>
+            <span class="event-card-tag">Teknologi</span>
+          </div>
+          <div class="event-card-body">
+            <h3>Inovasi Teknologi</h3>
+            <p>Tampilkan solusi teknologi terbaikmu — aplikasi, sistem, atau perangkat inovatif.</p>
+            <div class="event-card-meta">
+              <span>📅 15 Juli 2025</span>
+              <span>👥 Maks. 3 orang</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 10.000.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="event-card" data-category="seni" data-aos="fade-up" data-aos-delay="100">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #1f7dff, #5edfff)">
+            <span class="event-card-emoji">🎨</span>
+            <span class="event-card-tag">Seni</span>
+          </div>
+          <div class="event-card-body">
+            <h3>Desain & Seni Visual</h3>
+            <p>Ekspresikan kreativitasmu melalui desain grafis, ilustrasi, atau karya seni digital.</p>
+            <div class="event-card-meta">
+              <span>📅 16 Juli 2025</span>
+              <span>👤 Individual</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 7.500.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="event-card" data-category="riset" data-aos="fade-up" data-aos-delay="200">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe)">
+            <span class="event-card-emoji">🔬</span>
+            <span class="event-card-tag">Riset</span>
+          </div>
+          <div class="event-card-body">
+            <h3>Riset & Penelitian Ilmiah</h3>
+            <p>Presentasikan temuan penelitianmu dan berikan dampak nyata bagi masyarakat.</p>
+            <div class="event-card-meta">
+              <span>📅 17 Juli 2025</span>
+              <span>👥 Maks. 4 orang</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 8.000.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="event-card" data-category="bisnis" data-aos="fade-up" data-aos-delay="300">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #43e97b, #38f9d7)">
+            <span class="event-card-emoji">💼</span>
+            <span class="event-card-tag">Bisnis</span>
+          </div>
+          <div class="event-card-body">
+            <h3>Wirausaha & Business Plan</h3>
+            <p>Pitchkan ide bisnismu kepada investor dan juri berpengalaman dari dunia industri.</p>
+            <div class="event-card-meta">
+              <span>📅 15–17 Juli 2025</span>
+              <span>👥 Maks. 5 orang</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 12.000.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="event-card" data-category="seni" data-aos="fade-up" data-aos-delay="100">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #fa709a, #fee140)">
+            <span class="event-card-emoji">🎭</span>
+            <span class="event-card-tag">Seni</span>
+          </div>
+          <div class="event-card-body">
+            <h3>Seni Pertunjukan</h3>
+            <p>Persembahkan penampilan terbaikmu — tari, musik, teater, atau spoken word.</p>
+            <div class="event-card-meta">
+              <span>📅 16 Juli 2025</span>
+              <span>👥 Maks. 10 orang</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 6.000.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="event-card" data-category="tech" data-aos="fade-up" data-aos-delay="200">
+          <div class="event-card-image" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb)">
+            <span class="event-card-emoji">🤖</span>
+            <span class="event-card-tag">Teknologi</span>
+          </div>
+          <div class="event-card-body">
+            <h3>AI & Machine Learning</h3>
+            <p>Tunjukkan implementasi kecerdasan buatan untuk memecahkan masalah nyata.</p>
+            <div class="event-card-meta">
+              <span>📅 15 Juli 2025</span>
+              <span>👥 Maks. 3 orang</span>
+            </div>
+            <div class="event-card-footer">
+              <span class="prize-badge">🏆 Rp 15.000.000</span>
+              <a href="#contact" class="btn btn-sm btn-primary">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       GALLERY SECTION
+  ============================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Galeri</span>
+        <h2 class="section-title">Momen Terbaik EXPO 2024</h2>
+        <p class="section-desc">
+          Kilas balik momen-momen berkesan dari penyelenggaraan KPM EXPO tahun lalu.
+        </p>
+      </div>
+
+      <div class="gallery-grid" data-aos="fade-up">
+        <!-- Gallery items: large, medium, small tiles -->
+        <div class="gallery-item gallery-item--large">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #00b4ff 0%, #1f7dff 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Opening Ceremony 2024</span>
+            </div>
+            <div class="gallery-placeholder">🎉</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #1f7dff 0%, #5edfff 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Pameran Desain</span>
+            </div>
+            <div class="gallery-placeholder">🎨</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Kompetisi Coding</span>
+            </div>
+            <div class="gallery-placeholder">💻</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Seminar Nasional</span>
+            </div>
+            <div class="gallery-placeholder">🎤</div>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--tall">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Seni Pertunjukan</span>
+            </div>
+            <div class="gallery-placeholder">🎭</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Award Night</span>
+            </div>
+            <div class="gallery-placeholder">🏆</div>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)">
+            <div class="gallery-overlay">
+              <span class="gallery-label">Networking Session</span>
+            </div>
+            <div class="gallery-placeholder">🤝</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       TIMELINE SECTION
+  ============================== -->
+  <section class="timeline-section" id="timeline">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Timeline</span>
+        <h2 class="section-title">Rangkaian Kegiatan EXPO 2025</h2>
+        <p class="section-desc">
+          Jadwal lengkap dari persiapan hingga malam penghargaan.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">
+            <span class="timeline-icon">📢</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">1 Mei 2025</div>
+            <h3>Pengumuman & Pembukaan Pendaftaran</h3>
+            <p>Peluncuran resmi KPM EXPO 2025 beserta pengumuman tema, kategori, dan prosedur pendaftaran.</p>
+            <span class="timeline-badge timeline-badge--done">Selesai</span>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right" data-aos="fade-left">
+          <div class="timeline-marker">
+            <span class="timeline-icon">✍️</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">1 Mei – 30 Juni 2025</div>
+            <h3>Pendaftaran Peserta</h3>
+            <p>Periode pendaftaran terbuka untuk semua mahasiswa aktif UNJ. Daftarkan diri dan timmu sebelum batas waktu!</p>
+            <span class="timeline-badge timeline-badge--active">Berlangsung</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">
+            <span class="timeline-icon">📋</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">1–10 Juli 2025</div>
+            <h3>Seleksi & Verifikasi Karya</h3>
+            <p>Panitia melakukan seleksi awal terhadap seluruh karya yang masuk. Peserta yang lolos akan mendapat konfirmasi.</p>
+            <span class="timeline-badge timeline-badge--upcoming">Segera</span>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right" data-aos="fade-left">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🛠️</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">11–14 Juli 2025</div>
+            <h3>Persiapan & Technical Meeting</h3>
+            <p>Briefing teknis untuk seluruh peserta, persiapan booth, dan gladi resik untuk kategori pertunjukan.</p>
+            <span class="timeline-badge timeline-badge--upcoming">Segera</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🎉</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">15 Juli 2025</div>
+            <h3>Hari Pertama — Opening Ceremony</h3>
+            <p>Pembukaan resmi KPM EXPO 2025, pameran karya dimulai, dan dimulainya kompetisi kategori Teknologi & AI.</p>
+            <span class="timeline-badge timeline-badge--upcoming">Segera</span>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right" data-aos="fade-left">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🎯</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">16 Juli 2025</div>
+            <h3>Hari Kedua — Kompetisi & Workshop</h3>
+            <p>Kompetisi kategori Seni, seminar nasional bersama tokoh industri, dan sesi networking eksklusif.</p>
+            <span class="timeline-badge timeline-badge--upcoming">Segera</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">
+            <span class="timeline-icon">🏆</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-date">17 Juli 2025</div>
+            <h3>Hari Ketiga — Closing & Award Night</h3>
+            <p>Pengumuman pemenang, penyerahan hadiah, dan penutupan resmi KPM EXPO 2025 yang penuh kenangan.</p>
+            <span class="timeline-badge timeline-badge--upcoming">Segera</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SPONSORS SECTION
+  ============================== -->
+  <section class="sponsors" id="sponsors">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Didukung Oleh</span>
+        <h2 class="section-title">Mitra & Sponsor</h2>
+      </div>
+      <div class="sponsors-row" data-aos="fade-up">
+        <div class="sponsor-item">Universitas<br/>Negeri Jakarta</div>
+        <div class="sponsor-item">Kemendikbud<br/>Ristek</div>
+        <div class="sponsor-item">Bank<br/>Indonesia</div>
+        <div class="sponsor-item">Tokopedia</div>
+        <div class="sponsor-item">Google<br/>Indonesia</div>
+        <div class="sponsor-item">GoTo<br/>Group</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACT / CTA SECTION
+  ============================== -->
+  <section class="cta-section" id="contact">
+    <div class="cta-blob cta-blob--1"></div>
+    <div class="cta-blob cta-blob--2"></div>
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <span class="section-tag">Bergabung Sekarang</span>
+        <h2 class="cta-title">Siap Tampilkan Karyamu?</h2>
+        <p class="cta-desc">
+          Jangan lewatkan kesempatan emas ini. Daftar sekarang sebelum batas waktu pendaftaran ditutup
+          pada 30 Juni 2025.
+        </p>
+
+        <div class="cta-form">
+          <input type="email" class="cta-input" placeholder="Masukkan email kamu..." />
+          <button class="btn btn-primary btn-lg">Daftar Sekarang</button>
+        </div>
+
+        <div class="cta-socials">
+          <span>Ikuti kami di:</span>
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Twitter</a>
+          <a href="#" class="social-link">LINE</a>
+          <a href="#" class="social-link">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-badge">KPM</span>
+            <span class="logo-text">EXPO <span class="logo-accent">UNJ</span></span>
+          </a>
+          <p>Platform pameran dan kompetisi karya mahasiswa terbesar di Universitas Negeri Jakarta.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social">ig</a>
+            <a href="#" class="footer-social">tw</a>
+            <a href="#" class="footer-social">yt</a>
+            <a href="#" class="footer-social">li</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kategori</h4>
+          <ul>
+            <li><a href="#events">Inovasi Teknologi</a></li>
+            <li><a href="#events">Desain & Seni Visual</a></li>
+            <li><a href="#events">Riset Ilmiah</a></li>
+            <li><a href="#events">Wirausaha</a></li>
+            <li><a href="#events">AI & Machine Learning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kontak</h4>
+          <ul>
+            <li>📍 GOR UNJ, Jakarta Timur</li>
+            <li>📧 expo@kpmunj.org</li>
+            <li>📱 +62 812-3456-7890</li>
+            <li>🕐 Senin–Jumat, 09.00–17.00</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 KPM EXPO UNJ. Dibuat dengan ❤️ oleh Panitia KPM EXPO.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Syarat & Ketentuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
