@@ -255,6 +255,12 @@ button {
   color: var(--clr-primary-4);
 }
 
+.nav-logo-img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -560,10 +566,16 @@ button {
 
 .platforms-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-2xl);
-  max-width: 920px;
+  max-width: 1160px;
   margin: 0 auto;
+}
+
+.platform-card-img {
+  width: auto;
+  height: 90px;
+  margin-bottom: var(--space-xl);
 }
 
 .platform-card {
@@ -573,7 +585,9 @@ button {
   padding: var(--space-2xl);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  height: 100%;
   text-align: center;
   transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
   color: inherit;
@@ -831,6 +845,13 @@ button {
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: var(--space-2xl);
   margin-bottom: var(--space-3xl);
+  align-items: start;
+}
+
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
 }
 
 .footer-brand p {
