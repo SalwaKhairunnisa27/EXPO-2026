@@ -15,7 +15,6 @@ Pada tahun 2026, EXPO menghadirkan beberapa agenda utama, yaitu:
 
 * **CASTLE** (Conference on Social, Science, Technology, Language, and Education Research)
 * **SKILL** (Seminar Keilmiahan dan Hasil Penelitian)
-* **PKIM** (Program Kreativitas Ilmiah Mahasiswa)
 
 Website ini berfungsi sebagai media informasi dan publikasi kegiatan EXPO.
 
