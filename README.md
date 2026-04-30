@@ -89,4 +89,4 @@ Universitas Negeri Jakarta.
 ## 👤 Author
 
 Dikembangkan oleh tim HPD EXPO 20.0
-by Bayu Saputra & Salwa
+by Bayu Saputra & Salwa Khairunnisa
